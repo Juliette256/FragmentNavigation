@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:text="@string/title"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/fstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:text="Name"
+            android:textSize="21sp"/>
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="15dp"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/rounded_edit_text"/>
+
+        <TextView
+            android:id="@+id/secTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Location"
+            android:layout_marginLeft="20dp"
+            android:textSize="21dp"
+            android:textColor="@android:color/black"/>
+        />
+        <EditText
+            android:id="@+id/txtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:inputType="text"
+            android:ems="10"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background="@drawable/rounded_edit_text"/>
+
+        <TextView
+            android:id="@+id/thirdTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Occupation"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="21sp"
+            android:textColor="@android:color/black"/>
+        <EditText
+            android:id="@+id/txtDesignation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:inputType="text"
+            android:ems="10"
+            android:background="@drawable/rounded_edit_text"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:layout_weight="1"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDelete"-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+
+<!--            android:background="@drawable/button"-->
+<!--            android:text="Delete"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="25sp"-->
+<!--            android:layout_weight="1"/>-->
+    </LinearLayout>
+</LinearLayout>
